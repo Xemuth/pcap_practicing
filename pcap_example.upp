@@ -1,0 +1,17 @@
+uses
+	Core;
+
+library
+	pcap;
+
+file
+	pcap_const.h,
+	Ip.h,
+	Ethernet.h,
+	Tcp.h,
+	pcap_example.cpp;
+
+mainconfig
+	"" = "USEMALLOC",
+	"" = "";
+
